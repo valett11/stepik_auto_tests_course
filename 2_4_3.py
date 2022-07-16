@@ -12,3 +12,4 @@ button.click()
 message = browser.find_element(By.ID, "verify_message")
 
 assert "successful" in message.text
+browser.quit()
